@@ -53,7 +53,6 @@ public class GraphicalMenu extends Application {
     TableView<Map.Entry<String,String>> sym;
     ListView<String> exe;
     ListView<String> listView;
-    TableView<Map.Entry<String, String>> cb;
     java.util.List<PrgState> states;
     java.util.List<PrgState> endStates;
     RunExampleCommand rec;
@@ -282,7 +281,6 @@ public class GraphicalMenu extends Application {
         Controller controllerT2 = new Controller(repoT2);
         controllerT2.addProgram(myPrgStateT2);
 
-        this.addCommand(new ExitCommand("0", "exit"));
         this.addCommand(new RunExampleCommand("1", "int v; v = 2; Print(v)", controller1));
         this.addCommand(new RunExampleCommand("2", "a=2+3*5;b=a+1;Print(b)", controller2));
         this.addCommand(new RunExampleCommand("3", "bool a; int v; a=true;(If a Then v=2 Else v=3);Print(v)", controller3));
@@ -339,7 +337,6 @@ public class GraphicalMenu extends Application {
                 updateOut(out, states.get(0));
                 updateSym(sym, states.get(0));
                 updateThreads(threads, states);
-                updateCb(cb, states.get(0));
                 updateTf(tf, states);
                 threads.getSelectionModel().select(0);
             }
@@ -366,25 +363,6 @@ public class GraphicalMenu extends Application {
         ht = new TableView<>(htItems);
         ht.getColumns().setAll(htAddress, htValue);
         ht.setEditable(false);
-
-        TableColumn<HashMap.Entry<String, String>, String> cbInt = new TableColumn<>();
-        TableColumn<HashMap.Entry<String, String>, String> cbValue = new TableColumn<>();
-        cbInt.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<HashMap.Entry<String, String>, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<String, String>, String> p) {
-                return new SimpleStringProperty(p.getValue().getKey());
-            }
-        });
-        cbValue.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<HashMap.Entry<String, String>, String>, ObservableValue<String>>() {
-            @Override
-            public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<String, String>, String> p) {
-                return new SimpleStringProperty(p.getValue().getValue());
-            }
-        });
-        ObservableList<Map.Entry<String, String>> cbItems = FXCollections.observableArrayList((new HashMap<String, String>()).entrySet());
-        cb = new TableView<>(cbItems);
-        cb.getColumns().setAll(cbInt, cbValue);
-        cb.setEditable(false);
 
         out = new ListView<>();
         out.setEditable(false);
@@ -448,7 +426,6 @@ public class GraphicalMenu extends Application {
                 updateOut(out, states.get(0));
                 updateSym(sym, states.get(0));
                 updateThreads(threads, states);
-                updateCb(cb, states.get(0));
                 updateTf(tf, states);
                 threads.getSelectionModel().select(0);
 
@@ -466,8 +443,7 @@ public class GraphicalMenu extends Application {
                 layout2.getChildren().add(threads);
                 layout2.getChildren().add(sym);
                 layout2.getChildren().add(exe);
-                layout2.getChildren().add(cb);
-                Scene scene2 = new Scene(layout2, 1900, 400);
+                Scene scene2 = new Scene(layout2, 1700, 400);
                 stage.setScene(scene2);
             }
         });
@@ -525,13 +501,6 @@ public class GraphicalMenu extends Application {
 
     public void updateTf(TextField tf1, java.util.List<PrgState> states) {
         tf1.setText(String.valueOf(states.size()));
-    }
-
-    public void updateCb(TableView<Map.Entry<String,  String>> cb1, PrgState prgState)
-    {
-        HashMap<String, String> hm = prgState.getCyclicBarrier().forGUI();
-        ObservableList<Map.Entry<String, String>> symItems = FXCollections.observableArrayList(hm.entrySet());
-        cb1.setItems(symItems);
     }
 
     public static GraphicalMenu waitForStart() {
