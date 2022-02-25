@@ -216,23 +216,6 @@ public class GraphicalMenu extends Application {
 
         PrgState myPrgStateT1 = new PrgState(exeStackT1, symTableT1, outT1, stmtT1, fileTableT1, heapT1, new CyclicBarrier<Integer, Pair<Integer, ArrayList<Integer>>>());
 
-        IStack<IStmt> exeStackT2 = new ExeStack<>();
-        IStmt stmtT2 = new CompStmt(new VarDeclStmt("count",new RefType(new IntType())),
-                new CompStmt(new HeapAllocStmt("count",new ValueExp(new IntValue(0))),
-                        new CompStmt(new VarDeclStmt("a",new BoolType()),
-                                new CompStmt(new AssignStmt("a",new ValueExp(new BoolValue(true))),
-                                        new WhileStmt(new VarExp("a"),new ForkStmt(new WhileStmt(new VarExp("a"),
-                                                new HeapWriteStmt("count",new ArithExp('+',new HeapReadExp(new VarExp("count")),new ValueExp(new IntValue(1)))))))))));
-        exeStackT2.push(stmtT2);
-        stmtT2.typecheck(new Dict<String, IType>());
-
-        IDict<String, IValue> symTableT2 = new Dict<String, IValue>();
-        IDict<String, BufferedReader> fileTableT2 = new FileTable<String, BufferedReader>();
-        IList<IValue> outT2 = new List<IValue>();
-        IDict<Integer, IValue> heapT2 = new Heap<>();
-
-        PrgState myPrgStateT2 = new PrgState(exeStackT2, symTableT2, outT2, stmtT2, fileTableT2, heapT2, new CyclicBarrier<Integer, Pair<Integer, ArrayList<Integer>>>());
-
         Repo repo1 = new Repo("log1.txt");
         Controller controller1 = new Controller(repo1);
         controller1.addProgram(myPrgState1);
@@ -277,10 +260,6 @@ public class GraphicalMenu extends Application {
         Controller controllerT1 = new Controller(repoT1);
         controllerT1.addProgram(myPrgStateT1);
 
-        Repo repoT2 = new Repo("outputT2.txt");
-        Controller controllerT2 = new Controller(repoT2);
-        controllerT2.addProgram(myPrgStateT2);
-
         this.addCommand(new RunExampleCommand("1", "int v; v = 2; Print(v)", controller1));
         this.addCommand(new RunExampleCommand("2", "a=2+3*5;b=a+1;Print(b)", controller2));
         this.addCommand(new RunExampleCommand("3", "bool a; int v; a=true;(If a Then v=2 Else v=3);Print(v)", controller3));
@@ -291,8 +270,7 @@ public class GraphicalMenu extends Application {
         this.addCommand(new RunExampleCommand("a4-4", "Ref int v; new(v,20); Ref Ref int a; new(a,v); new(v,30); print(rH(rH(a)))", controller44));
         this.addCommand(new RunExampleCommand("a4-5", "int v; v=4; (while (v>0) print(v); v=v-1); print(v)", controller45));
         this.addCommand(new RunExampleCommand("a5", " int v; Ref int a; v=10; new(a,22); fork(wH(a,30); v=32; print(v); print(rH(a))); print(v); print(rH(a))", controller5));
-        this.addCommand(new RunExampleCommand("T1", "Ref int a; new(a,20); (for(v=0; v<3; v=v+1) fork(print(v); v=v*rh(a))); print(rh(a))", controllerT1));
-        this.addCommand(new RunExampleCommand("T2", "Ref int a; new(a,20); (for(v=0; v<3; v=v+1) fork(print(v); v=v*rh(a))); print(rh(a))", controllerT2));
+        this.addCommand(new RunExampleCommand("T1", "int v;int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)", controllerT1));
     }
 
     public void addCommand(Command c) {commands.put(c.getKey(),c);}
@@ -456,6 +434,7 @@ public class GraphicalMenu extends Application {
 
 
         Scene scene = new Scene(layout, 500, 500);
+        stage.setOnCloseRequest(e -> System.exit(0));
         stage.setScene(scene);
         stage.show();
     }
