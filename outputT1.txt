@@ -1,0 +1,1819 @@
+Program state: 11
+ExeStack:
+int v;int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int v
+int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int v
+int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int x;int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int x
+int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int x
+int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int y;v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int y
+v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+int y
+v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=0;repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=0
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=0
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3;x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+repeat fork(Print(v);v=v - 1);v=v + 1 until v == 3
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+v=v - 1
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 12
+ExeStack:
+
+SymTable:
+v->-1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1);v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+v=v - 1
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 13
+ExeStack:
+
+SymTable:
+v->0
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+fork(Print(v);v=v - 1)
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+v=v + 1
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+Print(v);v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+While !v == 3 do fork(Print(v);v=v - 1);v=v + 1
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+Print(v)
+v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+x=1;Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+v=v - 1
+
+SymTable:
+v->2
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+x=1
+Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 14
+ExeStack:
+
+SymTable:
+v->1
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+x=1
+Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->0
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop;y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop
+y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop
+y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+y=3;Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+y=3
+Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+y=3
+Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->0
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop;Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop
+Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Nop
+Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+Print(v * 10)
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
+Program state: 11
+ExeStack:
+
+SymTable:
+v->3
+x->1
+y->3
+
+Out:
+30
+2
+1
+0
+
+FileTable:
+
+Heap:
+
+
+
+BarrierTable:
+
+--------------------------------------------------
