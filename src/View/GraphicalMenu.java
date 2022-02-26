@@ -436,6 +436,7 @@ public class GraphicalMenu extends Application {
         Scene scene = new Scene(layout, 500, 500);
         stage.setOnCloseRequest(e -> System.exit(0));
         stage.setScene(scene);
+        stage.setOnCloseRequest(e -> System.exit(0));
         stage.show();
     }
 
